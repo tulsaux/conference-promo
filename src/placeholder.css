@@ -1,0 +1,40 @@
+body {
+	background: white;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em;
+}
+.sample-box {
+	background: #555;
+	height: 4vh;
+	margin-bottom: 1em;
+}
+.logo {
+	width: 200px;
+}
+.dark {
+	background: #333;
+}
+.w1 {
+	width: 100%;
+}
+.w2 {
+	width: 90%;
+}
+.w3 {
+	width: 85%;
+}
+.w4 {
+	width: 80%;
+}
+@media all and (min-width: 600px){
+	.sample-box {
+		height: 6vh;
+		margin-bottom: 1.5em;
+	}
+	.container {
+		padding: 2em;
+	}
+}
